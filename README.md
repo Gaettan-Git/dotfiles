@@ -55,7 +55,7 @@ If everything worked correctly, you now have a spinning cat to greet you !!
 In a future update (don't ask how future it'll be), i will try to make the animation recognize your distribution, and change the logo accordingly.<br>
 For now, if you want it to show up, you have to add it "manually".
 
-1. Download your distro logo from the internet (or anything, i won't check)
+1. Download your distro logo from the internet (or anything, i won't check) abd put it in the theme folder `oiiaa`
 2. Add the following code in the end of the `oiiaa.script` file :
 
 ```bash
