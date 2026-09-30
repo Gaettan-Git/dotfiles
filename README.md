@@ -50,7 +50,7 @@ In a future update (don't ask how future it'll be), i will try to add that the a
 For now, if you want it to show up, you have to add it "manually".
 
 1. Download your distro logo from the internet (or anything, i won't check)
-2. Add the following code in the end of the `oiia.script` file :
+2. Add the following code in the end of the `oiiaa.script` file :
 
 ```bash
 # display logo
