@@ -4,14 +4,14 @@ The greatest boot animation in history
 # About this repo
 I basically took exemple of [This repo](https://github.com/adi1090x/plymouth-themes). I copy one of theme and replace the animation by this magificent cat.<br>
 Basically the script take all the images in a loop, and follow them one by one.<br>
-```bash
+```
 for (i = 0; i < 68; i++)
   flyingman_image[i] = Image("progress-" + i + ".png");
 flyingman_sprite = Sprite();
 ```
 ---
 # How to install
-- Here's how you can do it on a debian distro
++ Here's how you can do it on a debian distro
 First make sure plymouth is installed (should be) :
 ```bash
 sudo apt install plymouth
