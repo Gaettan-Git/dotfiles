@@ -9,12 +9,11 @@ I basically took exemple of [This repo](https://github.com/adi1090x/plymouth-the
 
 # How to install
 
-+ Here's how you can do it on a debian distro
-
 First make sure plymouth is installed (should be) :
 
 ```bash
-sudo apt install plymouth
+sudo apt install plymouth #On debian
+sudo pacman -
 ```
 
 Then you want to get the file of this theme on your plymouth folder :
@@ -27,12 +26,15 @@ git clone https://github.com/Gaettan-Git/plymouth-oiiaa
 cd plymouth-oiiaa
 
 # you copy the theme folder, containing the script and images, in your plymouth themes
-sudo cp oiiaa /usr/share/plymouth/themes
+sudo cp -r oiiaa /usr/share/plymouth/themes
 ```
 
 Then we have to make plymouth use this theme :
 
 ```bash
+# if you want to check if the theme is here, do
+sudo plymouth-set-default-theme -l
+
 # Here's how to change plymouth default
 sudo plymouth-set-default-theme oiiaa
 
