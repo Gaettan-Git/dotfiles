@@ -1,6 +1,8 @@
 <h1 align="center">Plymouth oiiaa cat</h1>
 The greatest boot animation in history
 
+![gif](https://github.com/Gaettan-Git/plymouth-oiiaa/blob/main/presentation_suggestion.GIF)
+
 # About this repo
 
 I basically took exemple of [This repo](https://github.com/adi1090x/plymouth-themes). I copy one of theme and replace the animation by this magificent cat.<br>
