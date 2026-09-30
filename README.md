@@ -43,3 +43,21 @@ sudo update-initramfs -u
 ```
 
 If everything worked correctly, you now have a spinning cat to greet you !!
+
+# How to add your distro logo
+
+In a future update (don't ask how future it'll be), i will try to add that the animation recognize your distribution, and change the logo accordingly.<br>
+For now, if you want it to show up, you have to add it "manually".
+
+1. Download your distro logo from the internet (or anything, i won't check)
+2. Add the following code in the end of the `oiia.script` file :
+
+```bash
+# display logo
+distro_image = Image("Your logo filename"); # change filename accordingly
+distro_sprite = Sprite();
+
+distro_sprite.SetImage(distro_image);
+distro_sprite.SetX(Window.GetX() + (Window.GetWidth() / 2 - distro_image.GetWidth() / 2)); # center the image horizontally
+distro_sprite.SetY(Window.GetHeight() - distro_image.GetHeight() - 250); # display just above the bottom of the screen
+```
