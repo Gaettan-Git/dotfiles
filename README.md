@@ -61,3 +61,6 @@ distro_sprite.SetImage(distro_image);
 distro_sprite.SetX(Window.GetX() + (Window.GetWidth() / 2 - distro_image.GetWidth() / 2)); # center the image horizontally
 distro_sprite.SetY(Window.GetHeight() - distro_image.GetHeight() - 250); # display just above the bottom of the screen
 ```
+
+If you add the logo, i recommand to get the cat to display just a bit higher, by diminuiting his y coordinate, line 37 of `oiiaa.script`<br>
+> flyingman_sprite.SetY(Window.GetY() + (Window.GetHeight(0) / 2 - flyingman_image[0].GetHeight() / 2) - 150); for 150 pixels up
