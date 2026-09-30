@@ -32,9 +32,18 @@ cd plymouth-oiiaa
 sudo cp oiiaa /usr/share/plymouth/themes
 ```
 
-Then we have to make plymouth recognize this theme :
+Then we have to make plymouth use this theme :
 
 ```bash
-# 
+# Here's how to change plymouth default
 sudo plymouth-set-default-theme oiiaa
+
+# you can preview the theme by taping the following 
+sudo plymouthd; sudo plymouth --show-splash; sleep 5; sudo plymouth --quit
+# It show the current theme selected for 5 seconds
+
+# and now you update the booting process
+sudo update-initramfs -u
 ```
+
+If everything worked correctly, you now have a spinning cat to greet you !!
