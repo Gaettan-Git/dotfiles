@@ -105,11 +105,3 @@ fun MessageCallback(text) {
     message.sprite.SetPosition(screen.half.w - message.image.GetWidth() / 2, message.image.GetHeight());
 }
 Plymouth.SetMessageFunction(MessageCallback);
-
-# display logo
-mint_image = Image("Linux_Mint_logo.png"); # change filename accordingly
-mint_sprite = Sprite();
-
-mint_sprite.SetImage(mint_image);
-mint_sprite.SetX(Window.GetX() + (Window.GetWidth() / 2 - mint_image.GetWidth() / 2)); # center the image horizontally
-mint_sprite.SetY(Window.GetHeight() - mint_image.GetHeight() - 250); # display just above the bottom of the screen
