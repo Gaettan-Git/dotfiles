@@ -1,5 +1,5 @@
 <h1 align="center">Plymouth oiiaa cat</h1>
-The greatest boot animation in history
+The greatest boot animation in history. May solve world peace.<br>
 
 ![gif](https://github.com/Gaettan-Git/plymouth-oiiaa/blob/main/presentation_suggestion.GIF)
 
