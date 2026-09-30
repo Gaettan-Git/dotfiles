@@ -46,7 +46,7 @@ If everything worked correctly, you now have a spinning cat to greet you !!
 
 # How to add your distro logo
 
-In a future update (don't ask how future it'll be), i will try to add that the animation recognize your distribution, and change the logo accordingly.<br>
+In a future update (don't ask how future it'll be), i will try to make the animation recognize your distribution, and change the logo accordingly.<br>
 For now, if you want it to show up, you have to add it "manually".
 
 1. Download your distro logo from the internet (or anything, i won't check)
