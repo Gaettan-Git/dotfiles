@@ -3,6 +3,7 @@ The greatest boot animation in history
 ---
 # About this repo
 I basically took exemple of [This repo](https://github.com/adi1090x/plymouth-themes). I copy one of theme and replace the animation by this magificent cat.<br>
+
 ---
 # How to install
 + Here's how you can do it on a debian distro
