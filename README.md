@@ -9,11 +9,13 @@ I basically took exemple of [This repo](https://github.com/adi1090x/plymouth-the
 
 # How to install
 
+> The instructions should work on arch and debian. For any other distro, the logic stay the same, but i encourage you to search how to do the steps on internet
+
 First make sure plymouth is installed (should be) :
 
 ```bash
 sudo apt install plymouth #On debian
-sudo pacman -
+sudo pacman -S plymouth   #On arch
 ```
 
 Then you want to get the file of this theme on your plymouth folder :
