@@ -33,3 +33,8 @@ sudo cp oiiaa /usr/share/plymouth/themes
 ```
 
 Then we have to make plymouth recognize this theme :
+
+```bash
+# 
+sudo plymouth-set-default-theme oiiaa
+```
