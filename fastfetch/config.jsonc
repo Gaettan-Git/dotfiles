@@ -1,0 +1,163 @@
+{
+  "logo": {
+      "source": "~/.config/fastfetch/logo.txt",
+      "type": "file",
+  "height": 15,
+  "width": 30,
+      "padding": {
+          "top": 4,
+          "left": 1,
+      "right": 3
+  }
+  },
+
+  "display": {
+    "separator": " // ",     // Separator between keys and values
+    "color": {
+        "keys": "green",    // Key color
+        "title": "green"     // Title color
+    },
+    "key": {
+        "type": "string"   // See below
+    },
+    "percent": {
+        "type": 9,         // See below
+        "color": {
+            "green": "green",
+            "yellow": "light_yellow",
+            "red": "light_red"
+        }
+    },
+  },
+
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+  "modules": [
+    {
+      "type": "title",
+      "format": "\u001b[31mWelcome {user-name-colored}!"
+    },
+        {
+      "type": "custom",
+      "format": "\u001b[31m     ┌─────────────────────────────────────────────────┐"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[31m     |    Wake up > compile > troubleshoot > repeat    |"
+    },
+        {
+      "type": "custom",
+      "format": "\u001b[31m     └─────────────────────────────────────────────────┘"
+    },
+    //"separator",
+    {
+      "type": "custom",
+      "format": "\u001b[31m╭────────────────────────────────────────────────────────────"
+    },
+    {
+      "type": "os",
+      "key": "├ ",
+      "keyColor": "\u001b[31m"
+    },
+    {
+      "type": "host",
+      "key": "├ ",
+      "keyColor": "\u001b[31m"
+    },
+    {
+      "type": "kernel",
+      "key": "├ ",
+      "keyColor": "\u001b[31m"
+    },
+    {
+      "type": "packages",
+      "key": "├ ",
+      "keyColor": "\u001b[31m"
+    },
+    {
+      "type": "terminal",
+      "key": "├ 󰆍",
+      "keyColor": "\u001b[31m"
+    },
+
+    {
+      "type": "shell",
+      "key": "├ 󰈺",
+      "keyColor": "\u001b[31m"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[31m╭────────────────────────────────────────────────────────────"
+    },
+    {
+      "type": "display",
+      "key": "├ 󱣴",
+      "keyColor": "\u001b[31m"
+    },
+    {
+      "type": "de",
+      "key": "├ ",
+      "keyColor": "\u001b[31m"
+    },
+    {
+      "type": "wm",
+      "key": "├ 󱂬",
+      "keyColor": "\u001b[31m"
+    },
+    //"wmtheme",
+    //"theme",
+    //"icons",
+    //"font",
+    //"cursor",
+    //"terminalfont",
+    {
+      "type": "custom",
+      "format": "\u001b[31m╭────────────────────────────────────────────────────────────"
+    },
+    {
+      "type": "cpu",
+      "key": "├ ",
+      "keyColor": "\u001b[31m"
+    },
+    {
+      "type": "gpu",
+      "key": "├ ",
+      "keyColor": "\u001b[31m"
+    },
+    //"memory",
+    //"swap",
+    {
+      "type": "disk",
+      "key": "├ ",
+      "keyColor": "\u001b[31m"
+    },
+    {
+      "type": "battery",
+      "key": "├ ",
+      "keyColor": "\u001b[31m"
+    },
+    {
+      "type": "uptime",
+      "key": "├ 󱦟",
+      "keyColor": "\u001b[31m"
+    },
+    //"poweradapter",
+    {
+      "type": "custom",
+      "format": "\u001b[31m╭────────────────────────────────────────────────────────────"
+    },
+    {
+      "type": "locale",
+      "key": "├ ",
+      "keyColor": "\u001b[31m"
+    },
+    {
+      "type": "localip",
+      "key": "├ ",
+      "keyColor": "\u001b[31m"
+    },
+    "break",
+    "colors",
+    "break"
+  ]
+}
