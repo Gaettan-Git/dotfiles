@@ -4,7 +4,7 @@ Fastfetch is a command tool that get you information about your PC  in the termi
 
 Here's a custom one i made for the club of my school, [Robotech](https://github.com/Robotech-Lillois).
 
-![img]()
+![img](https://github.com/Gaettan-Git/dotfiles/blob/main/fastfetch/Robofetch.png)
 
 # Installation
 
