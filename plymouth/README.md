@@ -56,7 +56,7 @@ If everything worked correctly, you now have a spinning cat to greet you !!
 ~~For now, if you want it to show up, you have to add it "manually".~~<br>
 Seems like a pain in the ass, have instructions on how to DIY :)
 
-1. Download your distro logo from the internet (or anything, i won't check) abd put it in the theme folder `oiiaa`
+1. Download your distro logo from the internet (or anything, i won't check) and put it in the theme folder `oiiaa`
 2. Add the following code in the end of the `oiiaa.script` file :
 
 ```bash
