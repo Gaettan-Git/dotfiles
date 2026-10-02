@@ -1,9 +1,0 @@
-[Plymouth Theme]
-Name=oiiaa
-Description=display a beautiful cat
-Comment=created By Gaëtan Clavere
-ModuleName=script
-
-[script]
-ImageDir=/usr/share/plymouth/themes/oiiaa
-ScriptFile=/usr/share/plymouth/themes/oiiaa/oiiaa.script
